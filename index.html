@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>播放音频</title>
+</head>
+<body>
+<audio src="raw/1.mp3" controls="controls">你的浏览器不支持</audio>
+</body>
+</html>
+播放器不可见，用按钮控制播放
+
+html<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>播放音频</title>
+</head>
+<body>
+<button onclick="clickA()">播放/暂停</button>
+<audio id="audio" src="https://od.lk/s/MjlfMjM0MjQzMjBf/%E9%98%BF%E6%9C%A8-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%88%B1%E5%8F%AB%E5%81%9A%E6%94%BE%E6%89%8B.flac">你的浏览器不支持</audio>
+<script>
+    var a=document.getElementById("audio");
+    function clickA(){
+        if(a.paused){
+            a.play();
+        }else{
+            a.pause();
+        }
+    }
+</script>
+</body>
+</html>
+有控件的播放器
+
+html<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>播放音频</title>
+</head>
+<body>
+<audio src="raw/1.mp3" controls="controls">你的浏览器不支持</audio>
+</body>
+</html>
+播放器不可见，用按钮控制播放
+
+html<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>播放音频</title>
+</head>
+<body>
+<button onclick="clickA()">播放/暂停</button>
+<audio id="audio" src="raw/1.mp3">你的浏览器不支持</audio>
+<script>
+    var a=document.getElementById("audio");
+    function clickA(){
+        if(a.paused){
+            a.play();
+        }else{
+            a.pause();
+        }
+    }
+</script>
+</body>
+</html>
